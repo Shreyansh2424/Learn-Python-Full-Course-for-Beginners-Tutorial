@@ -227,3 +227,61 @@
 #Classes and Objects....
 
 
+# from student import student
+
+# student1 = student("Kashyap", "Bussniess", 3.1, False)
+# student2 = student("Shreyansh", "Computer Science", 2.1, True)
+
+# print(student2.name)
+
+
+#Building a Multiple Choice Quiz.....
+
+# from Question import Question
+
+# question_prompts = [
+#   "What color are apples?\n(a)Red/Green\n(b)Purple\n(c)Orange\n\n",
+#   "What color are Banannas?\n(a)Tea\n(b)Magenta\n(c)Yellow\n\n",
+#   "What color are strawberries?\n(a)Yellow\n(b)Red\n(c)Blue\n\n",  
+# ]
+
+# questions = [
+#   Question(question_prompts[0], "a"),
+#   Question(question_prompts[1], "c"),
+#   Question(question_prompts[2], "b"),
+# ]
+
+
+
+# def run_test(questions):
+#   score = 0
+#   for question in questions:
+#     answer = input(question.prompt)
+#     if answer == question.answer:
+#       score += 1
+#       print("You Got " + str(score) + "/" + str(len(questions)) + " Correct")
+
+# run_test(questions)
+
+#Object Functions....
+
+# from Student import Student
+
+# student1 = Student("Shreyansh", "Python", 3.1)
+# student2 = Student("Chintan", "JavaScript", 3.8)
+
+
+# print(student2.on_honor_roll())
+
+
+#Inheritance....
+
+from Chef import Chef
+from GujaratiChef import GujaratiChef
+
+myChef = Chef()
+myChef.make_special_dish()
+
+
+myGujaratiChef = Chef()
+myGujaratiChef.make_special_dish()
